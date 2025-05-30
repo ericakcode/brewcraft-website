@@ -1,7 +1,21 @@
+/*
+
+--- COLORS ---
+
+PRIMARY: #AF6E4D
+TINTS:
+SHADES:
+
+*/
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
 }
 
 body {
@@ -9,4 +23,15 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+}
+
+.hero {
+  margin: 0 auto;
+  max-width: 130rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.hero-img {
+  width: 100%;
 }
