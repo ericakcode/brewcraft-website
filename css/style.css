@@ -333,3 +333,79 @@ body {
 .step-img {
   width: 50%;
 }
+
+/****************************/
+/* COFFEE SECTION */
+/****************************/
+
+.section-coffee {
+  padding: 9rem 0;
+}
+
+.coffee {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.coffee-content {
+  padding: 3.2rem 4.8rem;
+}
+
+.coffee-tags {
+  margin-bottom: 1.2rem;
+  display: flex;
+  gap: 0.4rem;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.2rem;
+  color: #333;
+  border-radius: 100px;
+  font-weight: 600;
+}
+
+.tag--single {
+  background-color: lightgreen;
+}
+
+.tag--medium {
+  background-color: rgb(192, 255, 192);
+}
+
+.tag--balanced {
+  background-color: rgb(255, 247, 23);
+}
+
+.coffee-title {
+  font-size: 2rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+
+.coffee-attributes {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  list-style: none;
+}
+
+.coffee-attribute {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.coffee-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: #af6e4d;
+}
+
+.coffee-img {
+  width: 100%;
+}
